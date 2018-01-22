@@ -1,7 +1,10 @@
 <head>
 <style>
 
-h2 {
+container {
+    color: darkorange;
+}
+h1 {
     color: darkorange;
 }
 
