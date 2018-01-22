@@ -2,14 +2,12 @@
 <style>
 
 container {
-    color: darkorange;
-}
-h1 {
-    color: darkorange;
+    color: darkred;
 }
 
 h3 {
-    color: darkorange;
+    color: darkred;
+    font-size: 15px;
 }
 
 
