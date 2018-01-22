@@ -1,7 +1,10 @@
 <head>
 <style>
 
-container {
+body {
+      background-color: Red;
+}
+h1 {
     text-align: center;
 }
 h3 {
