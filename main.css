@@ -21,5 +21,6 @@ a {
 
 ul {
     text-align: center;
+    list-style-position: outside;
 }
 </style>
