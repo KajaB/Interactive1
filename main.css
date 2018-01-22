@@ -19,9 +19,12 @@ a {
     color: maroon;
 }
 
-ul {
+ul. a {
     text-align: center;
     list-style-type: none;
+}
+ul. b {
+    
 }
 li {
     display: inline;
