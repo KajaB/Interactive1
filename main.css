@@ -20,6 +20,6 @@ a {
 }
 
 ul {
-    float: right;
+    align-items: center;
 }
 </style>
