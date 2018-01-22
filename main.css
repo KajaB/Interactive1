@@ -2,22 +2,16 @@
 <style>
 
 body {
-      background-color: Red;
+      background-color: black;
 }
 h1 {
-    text-align: center;
+    color: blue;
+    
 }
 h3 {
     color: blue;
-    text-align: center;
+
 }
 
-ul {
-    text-align: center;
-}
-
-li {
-    text-align: center;
-}
 
 </style>
