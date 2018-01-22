@@ -19,14 +19,11 @@ a {
     color: maroon;
 }
 
-ul. a {
+ul {
     text-align: center;
-    list-style-type: disc;
-}
-ul. b {
-
+    list-style-type: none;
 }
 li {
-    display: inline;
+
 }
 </style>
