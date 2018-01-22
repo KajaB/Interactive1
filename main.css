@@ -4,10 +4,12 @@
 container {
     color: darkred;
 }
-
+h1 {
+    color: darkred;
+}
 h3 {
     color: darkred;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 
