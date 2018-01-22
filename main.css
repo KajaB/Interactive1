@@ -17,7 +17,9 @@ h3 {
 
 a {
     color: maroon;
-    text-align: center;
 }
 
+ul {
+    display: inline;
+}
 </style>
