@@ -20,6 +20,6 @@ a {
 }
 
 ul {
-    display: inline;
+    float: left;
 }
 </style>
