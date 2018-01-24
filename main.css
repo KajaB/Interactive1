@@ -19,7 +19,7 @@ h4 {
     color: darkred;
     font-size: 15px;
 }
-a {
+.a {
     color: maroon;
 }
 
@@ -31,7 +31,7 @@ li {
 
 }
 
-b {
+.works2 {
     color: orange;
 }
 </style>
