@@ -10,6 +10,13 @@ h1 {
     text-align: left;
     font-family: Merienda;
 }
+
+.desc {
+    color: darkred;
+    font-size: 20px;
+    font-family: Merienda;
+}
+
 h3 {
     color: darkred;
     font-size: 25px;
