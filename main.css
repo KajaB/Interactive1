@@ -24,11 +24,6 @@ h1 {
   left: 2px;
 }
 
-.exercises {
-  color: darkred;
-  font-size: 20px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -49,6 +44,8 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
     font-family: Merienda;
+    position: absolute;
+    left: 500px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
