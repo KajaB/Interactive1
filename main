@@ -1,0 +1,46 @@
+<head>
+<style>
+
+
+h1 {
+    color: darkred;
+    font-size: 45px;
+    text-align: left;
+    font-family: Merienda;
+}
+
+.desc {
+    color: darkred;
+    font-size: 20px;
+    font-family: Merienda;
+}
+
+h3 {
+    color: darkred;
+    font-size: 25px;
+    text-align: left;
+}
+h4 {
+    color: darkred;
+    font-size: 15px;
+}
+.a {
+    color: maroon;
+}
+
+ul {
+    text-align: left;
+
+}
+li {
+
+}
+
+.b2 {
+    color: orange;
+}
+
+.b {
+    color: purple;
+}
+</style>
