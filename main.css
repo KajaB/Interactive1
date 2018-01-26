@@ -45,7 +45,7 @@ li a, .dropbtn {
     text-decoration: none;
     font-family: Merienda;
     position: absolute;
-    left: 500px;
+    left: 100px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
