@@ -1,7 +1,9 @@
 <head>
 <style>
 
-
+container {
+    color: darkred;
+}
 h1 {
     color: darkred;
     font-size: 100px;
@@ -75,5 +77,3 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-</style>
