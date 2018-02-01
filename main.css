@@ -1,6 +1,11 @@
 <head>
 <style>
 
+@font-face {
+font-family: Lazer84;
+src: url(Fonts/Lazer84.ttf);
+}
+
 container {
     color: darkred;
 }

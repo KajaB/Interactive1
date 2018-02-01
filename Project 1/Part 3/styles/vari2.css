@@ -1,0 +1,42 @@
+@font-face {
+font-family: Aleo-Bold;
+src: url(.../Fonts/Aleo-Font/webfont Kit/Bold/_aleo-bold-webfont.ttf);
+}
+
+.a2 {
+  width: 60px;
+  color: purple;
+  font-size: 50px;
+  font-family:Aleo-Bold;
+}
+
+.a {
+  width: 300px;
+  color: purple;
+  position: absolute;
+  top: 60px;
+  font-size: 20px;
+  padding: 0 0 0 0;
+}
+.b {
+  width: 350px;
+  color: purple;
+  font-size: 20px;
+  padding: 0 0 0 50px;
+}
+.c {
+  width: 350px;
+  color: purple;
+  font-size: 20px;
+}
+.d {
+  width: 350px;
+  color: purple;
+  font-size: 20px;
+  text-align: justify;
+}
+.e {
+  width: 350px;
+  color: purple;
+  font-size: 20px;
+}
