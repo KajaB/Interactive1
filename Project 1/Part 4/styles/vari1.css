@@ -86,6 +86,7 @@ body {
 .grid-container {
     position: absolute;
     left: 20px;
+    top: 230px;
     display: grid;
     grid-template-areas:
     'a2 a a . .'
