@@ -1,0 +1,167 @@
+@font-face {
+font-family: Aleo-Bold;
+src: url(.../Fonts/Aleo-Font/webfont Kit/Bold/_aleo-bold-webfont.ttf);
+}
+
+.a2 {
+  width: 60px;
+  color: DarkTurquoise;
+  font-size: 50px;
+  font-family:Aleo-Bold;
+  margin: 60px 0 0 20px;
+}
+
+.a {
+  width: 320px;
+  color: DarkTurquoise;
+  position: absolute;
+  top: 75px;
+  font-size: 20px;
+  margin: 50px 20px 0 -10px;
+
+
+}
+.b {
+  width: 320px;
+  color: DarkTurquoise;
+  font-size: 20px;
+  margin: 20px 20px 0 40px;
+}
+.c {
+  width: 320px;
+  color: DarkTurquoise;
+  font-size: 20px;
+  margin: 20px 20px 0 40px;
+}
+.d {
+  width: 320px;
+  color: DarkTurquoise;
+  font-size: 20px;
+  margin: 20px 20px 0 40px;
+}
+.e {
+  width: 320px;
+  color: DarkTurquoise;
+  font-size: 11px;
+  margin: 130px 10px 0 20px;
+}
+
+.title {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 20px;
+  color: DarkTurquoise;
+  padding: 10px;
+  background-color: Moccasin;
+  text-align: right;
+
+}
+
+
+body {
+    font-family: palatino;
+    background-color: peachpuff;
+}
+
+
+
+.a {
+    grid-area: a;
+}
+.a2 {
+    grid-area: a2;
+}
+.b {
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+
+.grid-container {
+    position: absolute;
+    left: 20px;
+    display: grid;
+    grid-template-areas:
+    'a2 a a . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    'b b c d d'
+    'b b c d d'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . . . .'
+    '. . e . .';
+    grid-gap: 10px;
+}
+
+.grid-container > div {
+  background-color: ;
+  text-align: justify;
+}
+
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: Moccasin;
+    color: black;
+}
+
+.previoustop {
+    background-color: DarkTurquoise;
+    color: black;
+    position: absolute;
+
+}
+
+.nexttop {
+    background-color: DarkTurquoise;
+    color: white;
+    position: absolute;
+    right: 5px;
+}
+.previous {
+    background-color: DarkTurquoise;
+    color: black;
+    position: absolute;
+    bottom: -450px;
+}
+
+.next {
+    background-color: DarkTurquoise;
+    color: white;
+    position: absolute;
+    bottom: -450px;
+    right: 5px;
+}

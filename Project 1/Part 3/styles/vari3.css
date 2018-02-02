@@ -1,0 +1,82 @@
+body {
+        font-family: Verdana;
+        background-color: lightsalmon;
+        color: honeydew;
+}
+
+.a {
+    grid-area: a;
+}
+.a2 {
+    grid-area: a2;
+}
+.b {
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+
+.grid-container {
+    position: absolute;
+    left: 20px;
+    display: grid;
+    grid-template-areas:
+    'a . . . .'
+    'a . . . .'
+    'b . . . .'
+    'b . . . e'
+    'c . . . e'
+    'c . . . .'
+    'd . . . .'
+    'd . . . .';
+    grid-gap: 10px;
+}
+
+.grid-container > div {
+  background-color: ;
+  text-align: left;
+
+
+}
+
+
+strong {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+
+em {
+
+}
+
+
+.a {
+  width: 300px;
+  margin: 10px 0 0 10px;
+}
+.b {
+  width: 300px;
+  margin: 10px 0 0 10px;
+}
+.c {
+  width: 300px;
+  margin: 10px 0 0 10px;
+}
+.d {
+  width: 300px;
+  margin: 10px 0 130px 10px;
+}
+.e {
+  width: 300px;
+  position: absolute;
+  left: 450px;
+  margin: 10px 0 0 10px;
+}
