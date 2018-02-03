@@ -5,7 +5,7 @@ src: url(.../Fonts/Aleo-Font/webfont Kit/Bold/_aleo-bold-webfont.ttf);
 
 .a2 {
   width: 60px;
-  color: DarkTurquoise;
+  color: #0099ff;
   font-size: 50px;
   font-family:Aleo-Bold;
   margin: 60px 0 0 20px;
@@ -13,7 +13,7 @@ src: url(.../Fonts/Aleo-Font/webfont Kit/Bold/_aleo-bold-webfont.ttf);
 
 .a {
   width: 320px;
-  color: DarkTurquoise;
+  color: #0099ff;
   position: absolute;
   top: 75px;
   font-size: 20px;
@@ -23,25 +23,25 @@ src: url(.../Fonts/Aleo-Font/webfont Kit/Bold/_aleo-bold-webfont.ttf);
 }
 .b {
   width: 320px;
-  color: DarkTurquoise;
+  color: #0099ff;
   font-size: 20px;
   margin: 20px 20px 0 40px;
 }
 .c {
   width: 320px;
-  color: DarkTurquoise;
+  color: #0099ff;
   font-size: 20px;
   margin: 20px 20px 0 40px;
 }
 .d {
   width: 320px;
-  color: DarkTurquoise;
+  color: #0099ff;
   font-size: 20px;
   margin: 20px 20px 0 40px;
 }
 .e {
   width: 320px;
-  color: DarkTurquoise;
+  color: #0099ff;
   font-size: 11px;
   margin: 130px 10px 0 20px;
 }
@@ -49,7 +49,7 @@ src: url(.../Fonts/Aleo-Font/webfont Kit/Bold/_aleo-bold-webfont.ttf);
 .title {
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 20px;
-  color: DarkTurquoise;
+  color: #0099ff;
   padding: 10px;
   background-color: Moccasin;
   text-align: right;
@@ -140,27 +140,27 @@ a:hover {
 }
 
 .previoustop {
-    background-color: DarkTurquoise;
+    background-color: #0099ff;
     color: black;
     position: absolute;
 
 }
 
 .nexttop {
-    background-color: DarkTurquoise;
+    background-color: #0099ff;
     color: white;
     position: absolute;
     right: 5px;
 }
 .previous {
-    background-color: DarkTurquoise;
+    background-color: #0099ff;
     color: black;
     position: absolute;
     bottom: -450px;
 }
 
 .next {
-    background-color: DarkTurquoise;
+    background-color: #0099ff;
     color: white;
     position: absolute;
     bottom: -450px;
