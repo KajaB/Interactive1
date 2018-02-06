@@ -167,7 +167,7 @@ a:hover {
     background-color: #0099ff;
     color: black;
     position: absolute;
-    bottom: -350px;
+    bottom: -700px;
     margin-bottom: 70px;
 }
 
@@ -175,7 +175,7 @@ a:hover {
     background-color: #0099ff;
     color: white;
     position: absolute;
-    bottom: -350px;
+    bottom: -700px;
     right: 5px;
     margin-bottom: 70px;
 }
