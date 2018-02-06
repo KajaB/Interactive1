@@ -1,9 +1,9 @@
 #subtitle2 {
   position: relative;
-  left: 500px;
+  left: 645px;
   top: 100px;
-  color: #3CB371;
-  font-size: 50px;
+  color: #53FEA4;
+  font-size: 57px;
   font-family: Merienda;
   transform: rotate(-7deg);
   text-shadow: -3px -3px #cc3333;
@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3CB371;
+    background-color: #53FEA4;
 }
 
  nav.pg2 li {
@@ -42,7 +42,7 @@
 .dropdown-content2 {
     display: none;
     position: absolute;
-    background-color: #3CB371;
+    background-color: #53FEA4;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;

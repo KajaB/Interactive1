@@ -8,24 +8,24 @@ body {
     background: no-repeat center fixed;
     background-size: cover;
     height: 120%;
-    background-image: linear-gradient(#3CB371, #cc0033);
+    background-image: linear-gradient(#3CB371, #7433ff);
 }
 #container {
 
 }
 h1 {
-    color: #cc0033;
+    color: #7433ff;
     font-size: 100px;
     text-align: center;
     font-family: Merienda;
     position: relative;
     left: 20px;
     transform: rotate(-7deg);
-    text-shadow: -3px -3px #3CB371;
+    text-shadow: -3px -3px #53FEA4;
 }
 
 .desc {
-  color: #cc0033;
+  color: #7433ff;
   font-size: 30px;
   text-align: center;
   font-family: Merienda;
@@ -36,13 +36,13 @@ h1 {
 
 #subtitle {
   position: relative;
-  left: 500px;
+  left: 645px;
   top: 100px;
-  color: #cc0033;
-  font-size: 50px;
+  color: #7433ff;
+  font-size: 57px;
   font-family: Merienda;
   transform: rotate(-7deg);
-  text-shadow: -3px -3px #3CB371;
+  text-shadow: -3px -3px #53FEA4;
 }
 
 
@@ -52,10 +52,10 @@ h1 {
     overflow: hidden;
 }
   #sec1 {
-    background: linear-gradient(#cc0033, #3CB371);
+    background: linear-gradient(#7433ff, #53FEA4);
 }
   #sec2 {
-    background: linear-gradient(#3CB371, #cc3333);
+    background: linear-gradient(#53FEA4, #cc3333);
 }
   #sec3 {
     background: linear-gradient( #cc3333, #ffcc66);
@@ -163,7 +163,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #cc0033;
+    background-color: #7433ff;
 }
 
 nav li {
@@ -173,7 +173,7 @@ nav li {
 
 nav li a, .dropbtn {
     display: inline-block;
-    color: #3CB371;
+    color: #53FEA4;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -191,14 +191,14 @@ nav li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #cc0033;
+    background-color: #7433ff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #3CB371;
+    color: #53FEA4;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
