@@ -1,42 +1,65 @@
-$(document).ready(function ($) {
-    var parPosition = [];
-    $('.par').each(function () {
-        parPosition.push($(this).offset().top);
-    });
+/**
+ * menu.js v1.0.0
+ * http://www.codrops.com
+ *
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright 2014, Codrops
+ * http://www.codrops.com
+ */
+;( function( window ) {
 
-    $('a').click(function () {
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 500);
-        return false;
-    });
+	'use strict';
 
-    $('.vNav ul li a').click(function () {
-        $('.vNav ul li a').removeClass('active');
-        $(this).addClass('active');
-    });
+	function extend( a, b ) {
+		for( var key in b ) { 
+			if( b.hasOwnProperty( key ) ) {
+				a[key] = b[key];
+			}
+		}
+		return a;
+	}
 
-    $('.vNav a').hover(function () {
-        $(this).find('.label').show();
-    }, function () {
-        $(this).find('.label').hide();
-    });
+	function DotNav( el, options ) {
+		this.nav = el;
+		this.options = extend( {}, this.options );
+  		extend( this.options, options );
+  		this._init();
+	}
 
-    $(document).scroll(function () {
-        var position = $(document).scrollTop(),
-            index;
-        for (var i = 0; i < parPosition.length; i++) {
-            if (position <= parPosition[i]) {
-                index = i;
-                break;
-            }
-        }
-        $('.vNav ul li a').removeClass('active');
-        $('.vNav ul li a:eq(' + index + ')').addClass('active');
-    }).scroll();
+	DotNav.prototype.options = {};
 
-    $('.vNav ul li a').click(function () {
-        $('.vNav ul li a').removeClass('active');
-        $(this).addClass('active');
-    });
-});
+	DotNav.prototype._init = function() {
+		// special case "dotstyle-hop"
+		var hop = this.nav.parentNode.className.indexOf( 'dotstyle-hop' ) !== -1;
+
+		var dots = [].slice.call( this.nav.querySelectorAll( 'li' ) ), current = 0, self = this;
+
+		dots.forEach( function( dot, idx ) {
+			dot.addEventListener( 'click', function( ev ) {
+				ev.preventDefault();
+				if( idx !== current ) {
+					dots[ current ].className = '';
+
+					// special case
+					if( hop && idx < current ) {
+						dot.className += ' current-from-right';
+					}
+
+					setTimeout( function() {
+						dot.className += ' current';
+						current = idx;
+						if( typeof self.options.callback === 'function' ) {
+							self.options.callback( current );
+						}
+					}, 25 );						
+				}
+			} );
+		} );
+	}
+
+	// add to global namespace
+	window.DotNav = DotNav;
+
+})( window );

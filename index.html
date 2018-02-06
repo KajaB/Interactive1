@@ -232,14 +232,16 @@
 
 
 </section>
+
 <script src="js/dots.js"></script>
-<script>
-  [].slice.call( document.querySelectorAll( '.dotstyle > ul' ) ).forEach( function( nav ) {
-    new DotNav( nav, {
-      callback : function( idx ) {
-        //console.log( idx )
-      }
-    } );
-  } );
-</script>
-</body>
+		<script>
+			[].slice.call( document.querySelectorAll( '.dotstyle > ul' ) ).forEach( function( nav ) {
+				new DotNav( nav, {
+					callback : function( idx ) {
+						//console.log( idx )
+					}
+				} );
+			} );
+		</script>
+	</body>
+</html>
