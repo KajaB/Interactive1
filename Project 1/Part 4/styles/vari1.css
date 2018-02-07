@@ -85,7 +85,7 @@ body {
 
 .grid-container {
     position: absolute;
-    left: 25px;
+    left: 100px;
     top: 230px;
     display: grid;
     grid-template-areas:
