@@ -23,8 +23,15 @@ h1 {
     transform: rotate(-7deg);
     text-shadow: -3px -3px #53FEA4;
 }
-#body1 {
-  
+h2 {
+  margin-left: 20px;
+  font-family: Arial;
+}
+h3 {
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: Arial;
+}
 
 
 }
@@ -45,7 +52,103 @@ h1 {
 
 
 }
-
+#body1 {
+  width: 700px;
+  font-size: 15px;
+  font-family: Arial;
+  margin-left: 20px;
+}
+#body2 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body2 li {
+  margin-top: 10px;
+}
+#body3 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body3 li {
+  margin-top: 10px;
+}
+#body4 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body4 li {
+  margin-top: 10px;
+}
+#body5 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body5 li {
+  margin-top: 10px;
+}
+#body6 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body6 li {
+  margin-top: 10px;
+}
+#body7 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body7 li {
+  margin-top: 10px;
+}
+#body8 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body8 li {
+  margin-top: 10px;
+}
+#body9 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body9 li {
+  margin-top: 10px;
+}
+#body10 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body10 li {
+  margin-top: 10px;
+}
+#body11 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body11 li {
+  margin-top: 10px;
+}
+#body12 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body12 li {
+  margin-top: 10px;
+}
+#body13 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body13 li {
+  margin-top: 10px;
+}
+#body14 {
+  font-size: 15px;
+  font-family: Arial;
+}
+#body14 li {
+  margin-top: 10px;
+}
 
   section {
     width: 100%;
@@ -64,11 +167,40 @@ h1 {
   #sec4 {
     background: linear-gradient(#ffcc66, #ff0066);
 }
-
+  #sec5 {
+    background:#7433ff;
+}
+  #sec6 {
+    background: linear-gradient(#53FEA4, #cc3333);
+}
+  #sec7 {
+    background: linear-gradient( #cc3333, #ffcc66);
+}
+  #sec8 {
+    background: linear-gradient(#ffcc66, #ff0066);
+}
+  #sec9 {
+    background:#7433ff;
+}
+  #sec10 {
+    background: linear-gradient(#53FEA4, #cc3333);
+}
+  #sec11 {
+    background: linear-gradient( #cc3333, #ffcc66);
+}
+  #sec12 {
+    background: linear-gradient(#ffcc66, #ff0066);
+}
+  #sec13 {
+    background:#7433ff;
+}
+  #sec14 {
+    background: linear-gradient(#53FEA4, #cc3333);
+}
 
 .dotstyle ul {
 	position: fixed;
-  top: 250px;
+  top: 175px;
   right: 20px;
 	display: inline-block;
 	margin: 0;
