@@ -32,7 +32,11 @@ h3 {
   font-size: 25px;
   font-family: Arial;
 }
-
+p {
+  font-size: 15px;
+  font-family: Arial;
+  margin-left: 20px;
+}
 
 }
 .desc {
