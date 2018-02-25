@@ -1,3 +1,7 @@
+@font-face {
+			font-family: 'PantherV01TTF';
+			src: url(Fonts/'PantherV01.ttf') format('truetype');
+    }
 body,html {
   margin: 0;
   padding: 0;
@@ -17,7 +21,7 @@ h1 {
     color: #7433ff;
     font-size: 100px;
     text-align: center;
-    font-family: Merienda;
+    font-family: PantherV01TTF, Merienda;
     position: relative;
     left: 20px;
     transform: rotate(-7deg);
