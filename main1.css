@@ -1,6 +1,6 @@
 @font-face {
-			font-family: 'PantherV01TTF';
-			src: url(Fonts/'PantherV01.ttf') format('truetype');
+			font-family: BEYNO;
+			src: url(Fonts/BEYNO.ttf);
     }
 body,html {
   margin: 0;
@@ -12,27 +12,27 @@ body {
     background: no-repeat center fixed;
     background-size: cover;
     height: 120%;
-    background-image: linear-gradient(#3CB371, #7433ff);
+    background-image: linear-gradient(black, purple);
 }
 #container {
 
 }
 h1 {
-    color: #7433ff;
+    color: purple;
     font-size: 100px;
     text-align: center;
-    font-family: PantherV01TTF, Merienda;
+    font-family: BEYNO;
     position: relative;
     left: 20px;
     transform: rotate(-7deg);
-    text-shadow: -3px -3px #53FEA4;
+    text-shadow: -3px -3px silver;
 }
 
 .desc {
-  color: #7433ff;
+  color: silver;
   font-size: 30px;
   text-align: center;
-  font-family: Merienda;
+  font-family: BEYNO;
   position: relative;
   left: 2px;
 }
@@ -40,13 +40,13 @@ h1 {
 
 #subtitle {
   position: relative;
-  left: 645px;
+  left: 560px;
   top: 100px;
-  color: #7433ff;
+  color: purple;
   font-size: 57px;
-  font-family: Merienda;
+  font-family: BEYNO;
   transform: rotate(-7deg);
-  text-shadow: -3px -3px #53FEA4;
+  text-shadow: -3px -3px black;
 }
 
 
@@ -56,16 +56,16 @@ h1 {
     overflow: hidden;
 }
   #sec1 {
-    background: linear-gradient(#7433ff, #53FEA4);
+    background: linear-gradient(purple, black);
 }
   #sec2 {
-    background: linear-gradient(#53FEA4, #cc3333);
+    background: linear-gradient(black, silver);
 }
   #sec3 {
-    background: linear-gradient( #cc3333, #ffcc66);
+    background: linear-gradient( silver, purple);
 }
   #sec4 {
-    background: linear-gradient(#ffcc66, #ff0066);
+    background: linear-gradient(purple, black);
 }
 
 
@@ -167,7 +167,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #7433ff;
+    background-color: purple;
 }
 
 nav li {
@@ -177,7 +177,7 @@ nav li {
 
 nav li a, .dropbtn {
     display: inline-block;
-    color: #53FEA4;
+    color: silver;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -185,7 +185,7 @@ nav li a, .dropbtn {
 }
 
 nav li a:hover, .dropdown:hover .dropbtn {
-    background-color: orange;
+    background-color: black;
 }
 
 nav li.dropdown {
@@ -195,14 +195,14 @@ nav li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #7433ff;
+    background-color: purple;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #53FEA4;
+    color: silver;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -210,7 +210,7 @@ nav li.dropdown {
     font-size: 15px;
 }
 
-.dropdown-content a:hover {background-color: orange}
+.dropdown-content a:hover {background-color: black}
 
 .dropdown:hover .dropdown-content {
     display: block;

@@ -1,12 +1,12 @@
 #subtitle3 {
   position: relative;
-  left: 645px;
+  left: 560px;
   top: 100px;
-  color: #cc3333;
+  color: silver;
   font-size: 57px;
-  font-family: Merienda;
+  font-family: BEYNO;
   transform: rotate(-7deg);
-  text-shadow: -3px -3px #ffcc66;
+  text-shadow: -3px -3px purple;
 }
 
  nav.pg3 ul {
@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #cc3333;
+    background-color: silver;
 }
 
  nav.pg3 li {
@@ -24,7 +24,7 @@
 
  nav.pg3 li a, .dropbtn3 {
     display: inline-block;
-    color: #ffcc66;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -32,7 +32,7 @@
 }
 
  nav.pg3 li a:hover, .dropdown3:hover .dropbtn3 {
-    background-color: #ffff66;
+    background-color: purple;
 }
 
  nav.pg3 li.dropdown3 {
@@ -42,14 +42,14 @@
 .dropdown-content3 {
     display: none;
     position: absolute;
-    background-color: #cc3333;
+    background-color: silver;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content3 a {
-    color: purple;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -57,7 +57,7 @@
     font-size: 15px;
 }
 
-.dropdown-content3 a:hover {background-color: #f1f1f1}
+.dropdown-content3 a:hover {background-color: purple}
 
 .dropdown3:hover .dropdown-content3 {
     display: block;
