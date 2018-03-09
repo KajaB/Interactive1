@@ -1,85 +1,148 @@
-.container {
-  background-color: #F5F5F5;
-  float: left;
-  height: 300px;
-  margin-bottom: 25px;
-  margin-left: 22px;
-  margin-top: 40px;
-  width: 400px;
-  overflow-y: scroll; /* showing scrollbars */
+
+
+section {
+  width: auto;
+  height: 800px;
+  overflow: hidden;
 }
 
 
 .force-overflow {
     min-height: 450px;
+    overflow-y: scroll;
 }
-#style-1::-webkit-scrollbar {
-    width: 12px;
-    background-color: purple;
+.lisa::-webkit-scrollbar {
+    width: 20px;
 }
-#style-1::-webkit-scrollbar-thumb {
-    background-color: gold;
-}
-#style-1::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background-color: aliceblue;
-
-}
-
-.container2 {
-  background-color: #F5F5F5;
-  float: left;
-  height: 300px;
-  margin-bottom: 25px;
-  margin-left: 22px;
-  margin-top: 40px;
-  width: 400px;
-  overflow-y: scroll; /* showing scrollbars */
-}
-
-
-.force-overflow {
-    min-height: 450px;
-}
-#style-2::-webkit-scrollbar {
-    width: 12px;
-    background-color: purple;
-}
-#style-2::-webkit-scrollbar-thumb {
-    background-color: purple;
-}
-#style-2::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background-color: aliceblue;
-}
-
-.container3 {
-  background-color: #F5F5F5;
-  float: left;
-  height: 350px;
-  margin-bottom: 25px;
-  margin-left: 22px;
-  margin-top: 40px;
-  width: 700px;
-  overflow-y: scroll; /* showing scrollbars */
-}
-
-.force-overflow {
-    min-height: 450px;
-}
-#style-3::-webkit-scrollbar {
-    width: 40px;
-}
-#style-3::-webkit-scrollbar-thumb {
-    background-image: url("Thumb Images/Apple Lisa.png");
-    background-size: auto;
+.lisa::-webkit-scrollbar-thumb {
+    background-image: url("Thumb Images/AL.png");
+    background-size: 30px;
     background-repeat: no-repeat;
 }
-#style-3::-webkit-scrollbar-track {
+.lisa::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     background-image: url("Track Images/Apple Lisa.png");
     image-rendering: pixelated;
+    background-size: 90.7px;
+    background-repeat: no-repeat;
 }
-#style-3::-webkit-scrollbar-button {
+.xerox::-webkit-scrollbar {
+    width: 16.9px;
+    background-color: white;
+}
+.xerox::-webkit-scrollbar-thumb {
+    background-image: url("Thumb Images/Xerox.png");
+    background-size: 27px;
+    background-repeat: no-repeat;
+}
+.xerox::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+    background-image: url("Images/Blank Copy.png");
+    background-repeat: no-repeat;
+    background-size: 90.7px;
+  }
+.win7::-webkit-scrollbar {
+    width: 16.9px;
+    background-color: white;
+  }
+.win7::-webkit-scrollbar-thumb {
+    background-image: url("Thumb Images/Windows 7.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+  }
+.win7::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+    background-image: url("Track Images/Windows 7.png");
+    background-repeat: no-repeat;
+    background-size: 110.7px;
+  }
+.win8::-webkit-scrollbar {
+    width: 16.9px;
+    background-color: white;
+  }
+.win8::-webkit-scrollbar-thumb {
+    background-image: url("Thumb Images/Windows 8.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+  }
+.win8::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+    background-image: url("Track Images/Windows 8.png");
+    background-repeat: no-repeat;
+    background-size: 90px;
+  }
+.macosx::-webkit-scrollbar {
+    width: 16.9px;
+    background-color: white;
+  }
+.macosx::-webkit-scrollbar-thumb {
+    background-image: url("Thumb Images/Mac Os X(2).png");
+    background-size: 225px;
+    background-repeat: no-repeat;
+  }
+.macosx::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+    background-image: url("Track Images/Mac Os X.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+  }
+.win85::-webkit-scrollbar {
+    width: 16.9px;
+    background-color: white;
+  }
+.win85::-webkit-scrollbar-thumb {
+    background-image: url("Thumb Images/Windows '85.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+  }
+.win85::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+    background-image: url("Track Images/Windows '85.png");
+    background-repeat: no-repeat;
+    background-size: 91px;
+  }
+#sec1 {
+  background-image: url("Scrollbar Images/apple_lisa_screenshot.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#sec2 {
+  background-image: url("Scrollbar Images/xerox.big.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sec3 {
+  background-image: url("Scrollbar Images/Windows 7 2009.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#sec4 {
+  background-image: url("Scrollbar Images/Macosxlion.big.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sec5 {
+  background-image: url("Scrollbar Images/Windows 8 2012.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#sec6 {
+  background-image: url("Scrollbar Images/macosx.big.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#sec7 {
+  background-image: url("Scrollbar Images/Windows '85.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
