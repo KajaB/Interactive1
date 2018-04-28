@@ -16,12 +16,14 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "url": "https://kajab.github.io/interactive1/Project%203/Final/UGH/index.html"
   },
   "license": "MIT",
   "keywords": [
     "node",
     "glitch",
     "express"
-  ]
+  ],
+  "devDependencies": {},
+  "author": ""
 }
