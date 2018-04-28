@@ -1,7 +1,7 @@
 
 var request = new XMLHttpRequest("/senddata")
 
-request.open("POST","/senddata")
+request.open("POST","/")
 request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
 // request.setRequestHeader("Content-type", "application/json");
