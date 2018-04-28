@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.static('public'));
 
 // http://expressjs.com/en/starter/basic-routing.html
-app.post("*", function (request, response) {
+app.post("Server.js", function (request, response) {
 console.log(request.body)
 response.redirect('http://google.com');
 });
