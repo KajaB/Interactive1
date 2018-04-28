@@ -1,5 +1,5 @@
 
-var request = new XMLHttpRequest("/senddata")
+var request = new XMLHttpRequest()
 
 request.open("POST","/")
 request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
