@@ -12,9 +12,8 @@
 
 <form action="index.php" method="post">
 <input type="submit" value="Submit">
-</form>
 <textarea rows="4" cols="50" name="comment" form="comment">Enter text here...</textarea>
-
+</form>
 </body>
 </html>
 
