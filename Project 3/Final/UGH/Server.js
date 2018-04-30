@@ -19,13 +19,10 @@ app.use(express.static('public'));
 // http://expressjs.com/en/starter/basic-routing.html
 app.post("senddata", function (request, response) {
 console.log(request.body)
-response.redirect('http://google.com');
+response.redirect('https://kajab.github.io/interactive1/');
 });
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
 console.log('Your app is listening on port ' + listener.address().port);
 });
-
-window.location.href = "https://kajab.github.io/interactive1/Project%203/Final/UGH/index.html";
-window.open("https://kajab.github.io/interactive1/Project%203/Final/UGH/index.html")
