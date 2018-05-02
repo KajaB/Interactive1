@@ -3,7 +3,8 @@ var config = require('./config.js');
 
 var twitter = new twit(config);
 
-var messages = ["Hello world", "Hi People", "Goodnight"];
+var messages = ["Marijuana", "One fish two fish I’m the buzzed blue fish😂😂😂😂🤷🏽‍♀️", "Marijuana is just my thing", "", "", ""
+, "", "", "", "", "", "", ""];
 var messagelocation = 0
 
 var writetweet = function() {
