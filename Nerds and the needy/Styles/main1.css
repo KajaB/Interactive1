@@ -31,6 +31,7 @@ h2 {
   text-align: left;
 }
 h3 {
+  color: black;
   margin-left: 35px;
   margin-top: 30px;
   font-size: 15px;
@@ -372,7 +373,7 @@ nav li.dropdown {
 
 @media screen and (max-width: 500px) {
 	body {
-    height: 150%;
+    height: 180%;
     background: ;
     font-size: 20px;
     line-height: 1.25em;
