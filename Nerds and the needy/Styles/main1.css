@@ -383,7 +383,23 @@ nav li.dropdown {
     line-height: 1.25em;
     font-family: 'Fira Sans', sans-serif;
     }
+    h1 {
+        color: black;
+        font-size: 40px;
+        text-align: left;
+        font-family: 'Oswald', sans-serif;
+        position: relative;
+        left: 35px;
 
+    }
+    h2 {
+      margin-left: 40px;
+      margin-top: -30px;
+      margin-bottom: 100px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+      text-align: left;
+    }
     p {
       width: 300px;
       font-size: 15px;
