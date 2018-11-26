@@ -24,16 +24,19 @@ h1 {
 }
 h2 {
   margin-left: 40px;
-  margin-top: -30px;
+  margin-top: -50px;
   margin-bottom: 100px;
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
   text-align: left;
 }
 h3 {
-  margin-left: 40px;
-  font-size: 25px;
+  margin-left: 35px;
+  margin-top: 30px;
+  font-size: 15px;
   font-family: 'Oswald', sans-serif;
+  position: relative;
+  top: 55px;
 }
 p {
   width: 400px;
@@ -56,13 +59,7 @@ p {
 }
 
 
-#subtitle {
-  color: #53FEA4;
-  font-size: 57px;
-  font-family: Arial;
 
-
-}
 #body1 {
   width: 700px;
   font-size: 15px;
@@ -385,7 +382,7 @@ nav li.dropdown {
     }
     h1 {
         color: black;
-        font-size: 40px;
+        font-size: 50px;
         text-align: left;
         font-family: 'Oswald', sans-serif;
         position: relative;
@@ -399,6 +396,14 @@ nav li.dropdown {
       font-family: 'Oswald', sans-serif;
       font-size: 20px;
       text-align: left;
+    }
+    h3 {
+      margin-left: 35px;
+      margin-top: 30px;
+      font-size: 15px;
+      font-family: 'Oswald', sans-serif;
+      position: relative;
+      top: 35px;
     }
     p {
       width: 300px;
