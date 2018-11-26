@@ -416,8 +416,8 @@ nav li.dropdown {
 
 @media screen and (max-width: 700px) {
 	body {
-    background: red;
+    background: ;
     font-size: 20px;
-    line-height:;
+    line-height:2em;
     font-family: 'Fira Sans', sans-serif;
 	}
