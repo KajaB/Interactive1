@@ -261,3 +261,72 @@ a:hover {
       margin-bottom: 70px;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  body {
+    background: peachpuff;
+    line-height:2em;
+    font-family:'Fira Sans', sans-serif';
+	}
+  .a2 {
+    width: 190px;
+    color: #0099ff;
+    font-size: 25px;
+    font-family:'Oswald', sans-serif;
+    margin: -20px 0 0 -50px;
+  }
+  .a3 {
+    width: 320px;
+    color: #0099ff;
+    position: absolute;
+    top: 75px;
+    font-size: 11px;
+    margin: 220px 20px 0 -50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+  .a {
+    width: 320px;
+    color: #0099ff;
+    position: absolute;
+    top: 75px;
+    font-size: 11px;
+    margin: 0 20px 0 -200px;
+  }
+  .title {
+    font-family: 'font-family: 'Fira Sans', sans-serif';
+    font-size: 15px;
+    color: #0099ff;
+    padding: 10px;
+    background-color: Moccasin;
+    text-align: right;
+  }
+  a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+  }
+
+  a:hover {
+      background-color: Moccasin;
+      color: black;
+  }
+  .previous {
+      background-color: #0099ff;
+      color: black;
+      position: absolute;
+      bottom: -200px;
+      margin-bottom: 70px;
+  }
+
+  .next {
+      background-color: #0099ff;
+      color: white;
+      position: absolute;
+      bottom: -200px;
+      right: 200px;
+      margin-bottom: 70px;
+  }
+}
