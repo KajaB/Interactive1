@@ -387,11 +387,12 @@ nav li.dropdown {
         font-family: 'Oswald', sans-serif;
         position: relative;
         left: 35px;
+        top: 20px;
 
     }
     h2 {
       margin-left: 40px;
-      margin-top: -30px;
+      margin-top: -5px;
       margin-bottom: 100px;
       font-family: 'Oswald', sans-serif;
       font-size: 20px;
@@ -403,7 +404,7 @@ nav li.dropdown {
       font-size: 15px;
       font-family: 'Oswald', sans-serif;
       position: relative;
-      top: 35px;
+      top: 45px;
     }
     p {
       width: 300px;
