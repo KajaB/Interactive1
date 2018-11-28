@@ -231,40 +231,47 @@ p {
 }
   #sec8 {
     background: linear-gradient(#cc3333, #ffcc66);
-    height: 90%;
+    height: 70%;
 }
   #sec9 {
     background: linear-gradient(#ffcc66, #7433ff);
-    height: 80%;
+    height: 55%;
 }
   #sec10 {
     background: linear-gradient(#7433ff, #cc3333);
-    height: 80%;
+    height: 55%;
 }
   #sec11 {
     background: linear-gradient(#cc3333, #ffcc66);
-    height: 120%;
+    height: 95%;
 }
   #sec12 {
     background: linear-gradient(#ffcc66, #ff0066);
+    height: 70%;
 }
   #sec13 {
     background:linear-gradient(#ff0066, #7433ff);
+    height: 70%;
 }
   #sec14 {
     background: linear-gradient(#7433ff, #53FEA4);
+    height: 70%;
 }
   #sec15 {
     background: linear-gradient(#53FEA4, #cc3333);
+    height: 70%;
 }
   #sec16 {
     background: linear-gradient(#cc3333, #ffcc66);
+    height: 80%;
 }
   #sec17 {
     background: linear-gradient(#ffcc66, #7433ff);
+    height: 80%;
 }
   #sec18 {
     background: linear-gradient(#7433ff, #cc3333);
+    height: 50%;
 }
 
 .dotstyle ul {
