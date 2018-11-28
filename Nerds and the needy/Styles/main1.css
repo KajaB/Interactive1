@@ -208,26 +208,31 @@ p {
 }
   #sec1 {
     background: linear-gradient(#7433ff, #53FEA4);
+    height: 85%;
 }
   #sec2 {
     background: linear-gradient(#53FEA4, #cc3333);
-    height: 90%;
+    height: 75%;
 }
   #sec3 {
     background: linear-gradient(#cc3333, #ffcc66);
+    height: 85%;
 }
   #sec4 {
     background: linear-gradient(#ffcc66, #ff0066);
+    height: 85%;
 }
   #sec5 {
     background:linear-gradient(#ff0066, #7433ff);
+    height: 75%;
 }
   #sec6 {
     background: linear-gradient(#7433ff, #53FEA4);
+    height: 75%;
 }
   #sec7 {
     background: linear-gradient(#53FEA4, #cc3333);
-    height: 80%;
+    height: 65%;
 }
   #sec8 {
     background: linear-gradient(#cc3333, #ffcc66);
