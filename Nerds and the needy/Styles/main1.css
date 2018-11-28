@@ -193,6 +193,14 @@ p {
   position: relative;
   top: 10px;
 }
+#body18 {
+  width: 700px;
+  font-size: 15px;
+  font-family: 'Fira Sans', sans-serif;
+  margin-left: 20px;
+  position: relative;
+  top: 10px;
+}
   section {
     width: 100%;
     height: 100%;
@@ -577,6 +585,14 @@ nav li.dropdown {
       top: 10px;
     }
     #body17 {
+      width: 700px;
+      font-size: 15px;
+      font-family: 'Fira Sans', sans-serif;
+      margin-left: 20px;
+      position: relative;
+      top: 10px;
+    }
+    #body18 {
       width: 700px;
       font-size: 15px;
       font-family: 'Fira Sans', sans-serif;
