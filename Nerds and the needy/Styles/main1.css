@@ -7,7 +7,7 @@ body,html {
 body {
     background: no-repeat center fixed;
     background-size: cover;
-    height: ;
+    height: 120%;
     background-image: linear-gradient(#3CB371, #7433ff);
 }
 #container {
@@ -169,38 +169,7 @@ p {
   position: relative;
   top: 10px;
 }
-#body15 {
-  width: 700px;
-  font-size: 15px;
-  font-family: 'Fira Sans', sans-serif;
-  margin-left: 20px;
-  position: relative;
-  top: 10px;
-}
-#body16 {
-  width: 700px;
-  font-size: 15px;
-  font-family: 'Fira Sans', sans-serif;
-  margin-left: 20px;
-  position: relative;
-  top: 10px;
-}
-#body17 {
-  width: 700px;
-  font-size: 15px;
-  font-family: 'Fira Sans', sans-serif;
-  margin-left: 20px;
-  position: relative;
-  top: 10px;
-}
-#body18 {
-  width: 700px;
-  font-size: 15px;
-  font-family: 'Fira Sans', sans-serif;
-  margin-left: 20px;
-  position: relative;
-  top: 10px;
-}
+
   section {
     width: 100%;
     height: 100%;
@@ -208,8 +177,6 @@ p {
 }
   #sec1 {
     background: linear-gradient(#b24dff, #53FEA4);
-=======
->>>>>>> eb643e8fa5228141511f9fc910d5ab5146354a20
 }
   #sec2 {
     background: linear-gradient(#53FEA4, #d65c5c);
@@ -230,24 +197,22 @@ p {
   #sec7 {
     background: linear-gradient(#53FEA4, #d65c5c);
     height: 80%;
-=======
->>>>>>> eb643e8fa5228141511f9fc910d5ab5146354a20
 }
   #sec8 {
     background: linear-gradient(#d65c5c, #ffcc66);
     height: 90%;
 }
   #sec9 {
-    background: linear-gradient(#ffcc66, #7433ff);
-    height: 75%;
+    background: linear-gradient(#ffcc66, #b24dff);
+    height: 80%;
 }
   #sec10 {
-    background: linear-gradient(#7433ff, #cc3333);
-    height: 70%;
+    background: linear-gradient(#b24dff, #d65c5c);
+    height: 80%;
 }
   #sec11 {
-    background: linear-gradient(#cc3333, #ffcc66);
-    height: 110%;
+    background: linear-gradient(#d65c5c, #ffcc66);
+    height: 120%;
 }
   #sec12 {
     background: linear-gradient(#ffcc66, #ff4d94);
@@ -257,46 +222,6 @@ p {
 }
   #sec14 {
     background: linear-gradient(#b24dff, #53FEA4);
-=======
-    background: linear-gradient(#ffcc66, #7433ff);
-    height: 75%;
-}
-  #sec10 {
-    background: linear-gradient(#7433ff, #cc3333);
-    height: 70%;
-}
-  #sec11 {
-    background: linear-gradient(#cc3333, #ffcc66);
-    height: 110%;
-}
-  #sec12 {
-    background: linear-gradient(#ffcc66, #ff0066);
-    height: 85%;
-}
-  #sec13 {
-    background:linear-gradient(#ff0066, #7433ff);
-    height: 85%;
-}
-  #sec14 {
-    background: linear-gradient(#7433ff, #53FEA4);
-    height: 85%;
-}
-  #sec15 {
-    background: linear-gradient(#53FEA4, #cc3333);
-    height: 90%;
-}
-  #sec16 {
-    background: linear-gradient(#cc3333, #ffcc66);
-    height: 90%;
-}
-  #sec17 {
-    background: linear-gradient(#ffcc66, #7433ff);
-    height: 90%;
-}
-  #sec18 {
-    background: linear-gradient(#7433ff, #cc3333);
-    height: 60%;
->>>>>>> eb643e8fa5228141511f9fc910d5ab5146354a20
 }
 
 .dotstyle ul {
@@ -490,84 +415,6 @@ nav li.dropdown {
       position: relative;
       top: -80px;
     }
-
-    section {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-  }
-    #sec1 {
-      background: linear-gradient(#7433ff, #53FEA4);
-      height: 90%;
-  }
-    #sec2 {
-      background: linear-gradient(#53FEA4, #cc3333);
-      height: 75%;
-  }
-    #sec3 {
-      background: linear-gradient(#cc3333, #ffcc66);
-      height: 110%;
-  }
-    #sec4 {
-      background: linear-gradient(#ffcc66, #ff0066);
-      height: 100%;
-  }
-    #sec5 {
-      background:linear-gradient(#ff0066, #7433ff);
-      height: 90%;
-  }
-    #sec6 {
-      background: linear-gradient(#7433ff, #53FEA4);
-      height: 85%;
-  }
-    #sec7 {
-      background: linear-gradient(#53FEA4, #cc3333);
-      height: 65%;
-  }
-    #sec8 {
-      background: linear-gradient(#cc3333, #ffcc66);
-      height: 85%;
-  }
-    #sec9 {
-      background: linear-gradient(#ffcc66, #7433ff);
-      height: 55%;
-  }
-    #sec10 {
-      background: linear-gradient(#7433ff, #cc3333);
-      height: 65%;
-  }
-    #sec11 {
-      background: linear-gradient(#cc3333, #ffcc66);
-      height: 105%;
-  }
-    #sec12 {
-      background: linear-gradient(#ffcc66, #ff0066);
-      height: 80%;
-  }
-    #sec13 {
-      background:linear-gradient(#ff0066, #7433ff);
-      height: 80%;
-  }
-    #sec14 {
-      background: linear-gradient(#7433ff, #53FEA4);
-      height: 75%;
-  }
-    #sec15 {
-      background: linear-gradient(#53FEA4, #cc3333);
-      height: 80%;
-  }
-    #sec16 {
-      background: linear-gradient(#cc3333, #ffcc66);
-      height: 85%;
-  }
-    #sec17 {
-      background: linear-gradient(#ffcc66, #7433ff);
-      height: 80%;
-  }
-    #sec18 {
-      background: linear-gradient(#7433ff, #cc3333);
-      height: 50%;
-  }
     #body1 {
       width: 700px;
       font-size: 15px;
@@ -671,38 +518,6 @@ nav li.dropdown {
       top: 10px;
     }
     #body14 {
-      width: 700px;
-      font-size: 15px;
-      font-family: 'Fira Sans', sans-serif;
-      margin-left: 20px;
-      position: relative;
-      top: 10px;
-    }
-    #body15 {
-      width: 700px;
-      font-size: 15px;
-      font-family: 'Fira Sans', sans-serif;
-      margin-left: 20px;
-      position: relative;
-      top: 10px;
-    }
-    #body16 {
-      width: 700px;
-      font-size: 15px;
-      font-family: 'Fira Sans', sans-serif;
-      margin-left: 20px;
-      position: relative;
-      top: 10px;
-    }
-    #body17 {
-      width: 700px;
-      font-size: 15px;
-      font-family: 'Fira Sans', sans-serif;
-      margin-left: 20px;
-      position: relative;
-      top: 10px;
-    }
-    #body18 {
       width: 700px;
       font-size: 15px;
       font-family: 'Fira Sans', sans-serif;
