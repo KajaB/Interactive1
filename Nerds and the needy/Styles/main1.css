@@ -207,11 +207,8 @@ p {
     overflow: hidden;
 }
   #sec1 {
-<<<<<<< HEAD
     background: linear-gradient(#b24dff, #53FEA4);
 =======
-    background: linear-gradient(#7433ff, #53FEA4);
-    height: 110%;
 >>>>>>> eb643e8fa5228141511f9fc910d5ab5146354a20
 }
   #sec2 {
@@ -219,7 +216,6 @@ p {
     height: 90%;
 }
   #sec3 {
-<<<<<<< HEAD
     background: linear-gradient(#d65c5c, #ffcc66);
 }
   #sec4 {
@@ -235,24 +231,6 @@ p {
     background: linear-gradient(#53FEA4, #d65c5c);
     height: 80%;
 =======
-    background: linear-gradient(#cc3333, #ffcc66);
-    height: 100%;
-}
-  #sec4 {
-    background: linear-gradient(#ffcc66, #ff0066);
-    height: 100%;
-}
-  #sec5 {
-    background:linear-gradient(#ff0066, #7433ff);
-    height: 95%;
-}
-  #sec6 {
-    background: linear-gradient(#7433ff, #53FEA4);
-    height: 95%;
-}
-  #sec7 {
-    background: linear-gradient(#53FEA4, #cc3333);
-    height: 75%;
 >>>>>>> eb643e8fa5228141511f9fc910d5ab5146354a20
 }
   #sec8 {
@@ -260,17 +238,16 @@ p {
     height: 90%;
 }
   #sec9 {
-<<<<<<< HEAD
-    background: linear-gradient(#ffcc66, #b24dff);
-    height: 80%;
+    background: linear-gradient(#ffcc66, #7433ff);
+    height: 75%;
 }
   #sec10 {
-    background: linear-gradient(#b24dff, #d65c5c);
-    height: 80%;
+    background: linear-gradient(#7433ff, #cc3333);
+    height: 70%;
 }
   #sec11 {
-    background: linear-gradient(#d65c5c, #ffcc66);
-    height: 120%;
+    background: linear-gradient(#cc3333, #ffcc66);
+    height: 110%;
 }
   #sec12 {
     background: linear-gradient(#ffcc66, #ff4d94);
