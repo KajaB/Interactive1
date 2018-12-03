@@ -169,6 +169,38 @@ p {
   position: relative;
   top: 10px;
 }
+#body15 {
+  width: 700px;
+  font-size: 15px;
+  font-family: 'Fira Sans', sans-serif;
+  margin-left: 20px;
+  position: relative;
+  top: 10px;
+}
+#body16 {
+  width: 700px;
+  font-size: 15px;
+  font-family: 'Fira Sans', sans-serif;
+  margin-left: 20px;
+  position: relative;
+  top: 10px;
+}
+#body17 {
+  width: 700px;
+  font-size: 15px;
+  font-family: 'Fira Sans', sans-serif;
+  margin-left: 20px;
+  position: relative;
+  top: 10px;
+}
+#body18 {
+  width: 700px;
+  font-size: 15px;
+  font-family: 'Fira Sans', sans-serif;
+  margin-left: 20px;
+  position: relative;
+  top: 10px;
+}
 
   section {
     width: 100%;
@@ -222,6 +254,19 @@ p {
 }
   #sec14 {
     background: linear-gradient(#b24dff, #53FEA4);
+}
+  #sec15 {
+    background: linear-gradient(#53FEA4, #d65c5c);
+  height: 90%;
+}
+  #sec16 {
+    background: linear-gradient(#d65c5c, #ffcc66);
+}
+  #sec17 {
+    background: linear-gradient(#ffcc66, #ff4d94);
+}
+  #sec18 {
+    background:linear-gradient(#ff4d94, #b24dff);
 }
 
 .dotstyle ul {
@@ -525,4 +570,103 @@ nav li.dropdown {
       position: relative;
       top: 10px;
     }
-	}
+    #body15 {
+      width: 700px;
+      font-size: 15px;
+      font-family: 'Fira Sans', sans-serif;
+      margin-left: 20px;
+      position: relative;
+      top: 10px;
+    }
+    #body16 {
+      width: 700px;
+      font-size: 15px;
+      font-family: 'Fira Sans', sans-serif;
+      margin-left: 20px;
+      position: relative;
+      top: 10px;
+    }
+    #body17 {
+      width: 700px;
+      font-size: 15px;
+      font-family: 'Fira Sans', sans-serif;
+      margin-left: 20px;
+      position: relative;
+      top: 10px;
+    }
+    #body18 {
+      width: 700px;
+      font-size: 15px;
+      font-family: 'Fira Sans', sans-serif;
+      margin-left: 20px;
+      position: relative;
+      top: 10px;
+    }
+
+    section {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+  }
+    #sec1 {
+      background: linear-gradient(#b24dff, #53FEA4);
+  }
+    #sec2 {
+      background: linear-gradient(#53FEA4, #d65c5c);
+      height: 90%;
+  }
+    #sec3 {
+      background: linear-gradient(#d65c5c, #ffcc66);
+  }
+    #sec4 {
+      background: linear-gradient(#ffcc66, #ff4d94);
+  }
+    #sec5 {
+      background:linear-gradient(#ff4d94, #b24dff);
+  }
+    #sec6 {
+      background: linear-gradient(#b24dff, #53FEA4);
+  }
+    #sec7 {
+      background: linear-gradient(#53FEA4, #d65c5c);
+      height: 80%;
+  }
+    #sec8 {
+      background: linear-gradient(#d65c5c, #ffcc66);
+      height: 90%;
+  }
+    #sec9 {
+      background: linear-gradient(#ffcc66, #b24dff);
+      height: 80%;
+  }
+    #sec10 {
+      background: linear-gradient(#b24dff, #d65c5c);
+      height: 80%;
+  }
+    #sec11 {
+      background: linear-gradient(#d65c5c, #ffcc66);
+      height: 120%;
+  }
+    #sec12 {
+      background: linear-gradient(#ffcc66, #ff4d94);
+  }
+    #sec13 {
+      background:linear-gradient(#ff4d94, #b24dff);
+  }
+    #sec14 {
+      background: linear-gradient(#b24dff, #53FEA4);
+  }
+  #sec15 {
+    background: linear-gradient(#53FEA4, #d65c5c);
+  height: 90%;
+  }
+  #sec16 {
+    background: linear-gradient(#d65c5c, #ffcc66);
+  }
+  #sec17 {
+    background: linear-gradient(#ffcc66, #ff4d94);
+  }
+  #sec18 {
+    background:linear-gradient(#ff4d94, #b24dff);
+  }
+}
